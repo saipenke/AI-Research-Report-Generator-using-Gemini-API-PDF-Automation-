@@ -1,0 +1,47 @@
+10:50:42  INFO      __main__ — Pipeline starting for topic: 'what is flutter and how it will be helpful for the developers and also for the uiux fields'
+10:50:42  INFO      agents.research_agent — [ResearchAgent] Starting research on: 'what is flutter and how it will be helpful for the developers and also for the uiux fields'
+10:50:42  INFO      tools.web_search_tool — [WebSearch] Provider: duckduckgo | Query: what is flutter and how it will be helpful for the developers and also for the uiux fields
+10:50:43  INFO      primp — response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=what%20is%20flutter%20and%20how%20it%20will%20be%20helpful%20for%20the%20developers%20and%20also%20for%20the%20uiux%20fields 200
+10:50:44  INFO      primp — response: https://grokipedia.com/api/typeahead?query=what+is+flutter+and+how+it+will+be+helpful+for+the+developers+and+also+for+the+uiux+fields&limit=1 200
+10:50:45  INFO      primp — response: https://search.brave.com/search?q=what+is+flutter+and+how+it+will+be+helpful+for+the+developers+and+also+for+the+uiux+fields&source=web 200
+10:50:45  INFO      tools.web_search_tool — [ddgs] Retrieved 6 results.
+10:50:45  INFO      tools.web_search_tool — [WebSearch] Provider: duckduckgo | Query: what is flutter and how it will be helpful for the developers and also for the uiux fields overview history
+10:50:45  INFO      primp — response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=what%20is%20flutter%20and%20how%20it%20will%20be%20helpful%20for%20the%20developers%20and%20also%20for%20the%20uiux%20fields%20overview%20history 200
+10:50:45  INFO      primp — response: https://grokipedia.com/api/typeahead?query=what+is+flutter+and+how+it+will+be+helpful+for+the+developers+and+also+for+the+uiux+fields+overview+history&limit=1 200
+10:50:46  INFO      primp — response: https://html.duckduckgo.com/html/ 200
+10:50:46  INFO      tools.web_search_tool — [ddgs] Retrieved 6 results.
+10:50:46  INFO      tools.web_search_tool — [WebSearch] Provider: duckduckgo | Query: what is flutter and how it will be helpful for the developers and also for the uiux fields applications and use cases
+10:50:47  INFO      primp — response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=what%20is%20flutter%20and%20how%20it%20will%20be%20helpful%20for%20the%20developers%20and%20also%20for%20the%20uiux%20fields%20applications%20and%20use%20cases 200
+10:50:47  INFO      primp — response: https://grokipedia.com/api/typeahead?query=what+is+flutter+and+how+it+will+be+helpful+for+the+developers+and+also+for+the+uiux+fields+applications+and+use+cases&limit=1 200
+10:50:48  INFO      primp — response: https://html.duckduckgo.com/html/ 200
+10:50:48  INFO      tools.web_search_tool — [ddgs] Retrieved 6 results.
+10:50:48  INFO      tools.web_search_tool — [WebSearch] Provider: duckduckgo | Query: what is flutter and how it will be helpful for the developers and also for the uiux fields latest trends challenges future
+10:50:49  INFO      primp — response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=what%20is%20flutter%20and%20how%20it%20will%20be%20helpful%20for%20the%20developers%20and%20also%20for%20the%20uiux%20fields%20latest%20trends%20challenges%20future 200
+10:50:49  INFO      primp — response: https://grokipedia.com/api/typeahead?query=what+is+flutter+and+how+it+will+be+helpful+for+the+developers+and+also+for+the+uiux+fields+latest+trends+challenges+future&limit=1 200
+10:50:50  INFO      primp — response: https://html.duckduckgo.com/html/ 200
+10:50:50  INFO      tools.web_search_tool — [ddgs] Retrieved 6 results.
+10:50:50  INFO      agents.research_agent — [ResearchAgent] 18 unique results collected.
+10:50:50  INFO      tools.scraping_tool — [Scraper] Fetching: https://en.wikipedia.org/wiki/Flutter_(software)
+10:50:51  INFO      tools.scraping_tool — [Scraper] Extracted 13702 chars from https://en.wikipedia.org/wiki/Flutter_(software)
+10:50:51  INFO      tools.scraping_tool — [Scraper] Fetching: https://docs.flutter.dev/ui
+10:50:52  INFO      tools.scraping_tool — [Scraper] Extracted 24412 chars from https://docs.flutter.dev/ui
+10:50:52  INFO      tools.scraping_tool — [Scraper] Fetching: https://www.browserstack.com/guide/what-is-flutter
+10:50:53  INFO      tools.scraping_tool — [Scraper] Extracted 21372 chars from https://www.browserstack.com/guide/what-is-flutter
+10:50:53  INFO      tools.scraping_tool — [Scraper] Fetching: https://flutter.dev/
+10:50:53  INFO      tools.scraping_tool — [Scraper] Extracted 2882 chars from https://flutter.dev/
+10:50:53  INFO      tools.scraping_tool — [Scraper] Fetching: https://docs.flutter.dev/resources/architectural-overview
+10:50:54  INFO      tools.scraping_tool — [Scraper] Extracted 42899 chars from https://docs.flutter.dev/resources/architectural-overview
+10:50:54  INFO      tools.scraping_tool — [Scraper] Fetching: https://blog.codemagic.io/what-is-flutter-benefits-and-limitations/
+10:50:56  INFO      tools.scraping_tool — [Scraper] Extracted 137 chars from https://blog.codemagic.io/what-is-flutter-benefits-and-limitations/
+10:50:56  INFO      tools.scraping_tool — [Scraper] Fetching: https://www.geeksforgeeks.org/flutter/flutter-tutorial/
+10:50:56  INFO      tools.scraping_tool — [Scraper] Extracted 9069 chars from https://www.geeksforgeeks.org/flutter/flutter-tutorial/
+10:50:56  INFO      tools.scraping_tool — [Scraper] Fetching: https://developers.google.com/learn/pathways/intro-to-flutter
+10:50:57  INFO      tools.scraping_tool — [Scraper] Extracted 1570 chars from https://developers.google.com/learn/pathways/intro-to-flutter
+10:50:57  INFO      agents.research_agent — [ResearchAgent] Scraped 8 pages successfully.
+10:50:57  INFO      agents.research_agent — [ResearchAgent] Rule-based synthesis complete.
+10:50:57  INFO      agents.validator_agent — [ValidatorAgent] Validating research for: 'what is flutter and how it will be helpful for the developers and also for the uiux fields'
+10:50:57  INFO      agents.validator_agent — [ValidatorAgent] Validation complete (no LLM pass).
+10:50:57  INFO      agents.pdf_generator_agent — [PDFGeneratorAgent] Generating PDF for: 'what is flutter and how it will be helpful for the developers and also for the uiux fields'
+10:50:57  INFO      utils.pdf_generator — [PDFGenerator] Saved → generated_reports\what_is_flutter_and_how_it_will_be_helpful_for_the_developers_and_also_for_the_uiux_fields_Report.pdf
+10:50:57  INFO      agents.pdf_generator_agent — [PDFGeneratorAgent] PDF saved: D:\kiran\Personal_projects of me\Google agent DTK research_pdf_agent\generated_reports\what_is_flutter_and_how_it_will_be_helpful_for_the_developers_and_also_for_the_uiux_fields_Report.pdf
+10:50:57  INFO      __main__ — Pipeline finished. Output: D:\kiran\Personal_projects of me\Google agent DTK research_pdf_agent\generated_reports\what_is_flutter_and_how_it_will_be_helpful_for_the_developers_and_also_for_the_uiux_fields_Report.pdf
