@@ -1,18 +1,25 @@
-"""
-main.py
--------
-Entry point for the Multi-Agent AI Research PDF System.
+import streamlit as st
+import os
+from main import run_pipeline   # (you may need to create this function)
 
-Pipeline:
-    User Topic
-        → 1️⃣  Research Agent   (web search + LLM synthesis)
-        → 2️⃣  Validator Agent  (quality check + de-duplication)
-        → 3️⃣  PDF Generator Agent (ReportLab PDF)
-        → generated_reports/<Topic>_Report.pdf
+st.title("📄 AI Research Report Generator")
 
-Usage:
-    python main.py
-"""
+topic = st.text_input("Enter Research Topic")
+
+if st.button("Generate Report"):
+    if topic:
+        with st.spinner("Generating report..."):
+            pdf_path = run_pipeline(topic)
+
+        st.success("Report Generated!")
+
+        with open(pdf_path, "rb") as f:
+            st.download_button(
+                label="Download PDF",
+                data=f,
+                file_name="report.pdf",
+                mime="application/pdf"
+            )
 
 import os
 import sys
