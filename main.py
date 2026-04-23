@@ -1,26 +1,3 @@
-import streamlit as st
-import os
-from main import run_pipeline   # (you may need to create this function)
-
-st.title("📄 AI Research Report Generator")
-
-topic = st.text_input("Enter Research Topic")
-
-if st.button("Generate Report"):
-    if topic:
-        with st.spinner("Generating report..."):
-            pdf_path = run_pipeline(topic)
-
-        st.success("Report Generated!")
-
-        with open(pdf_path, "rb") as f:
-            st.download_button(
-                label="Download PDF",
-                data=f,
-                file_name="report.pdf",
-                mime="application/pdf"
-            )
-
 import os
 import sys
 import time
